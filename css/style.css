@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Header do site */
+
+header {
+  padding: 20px 2%;
+}
+
+header .logo img {
+  float: left;
+  width: 236px;
+}
+
+header nav ul {
+  padding: 8px 0;
+  list-style-type: none;
+  float: right;
+}
+
+header nav ul li {
+  float: left;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #b4b4b4;
+}
+
+/***/
