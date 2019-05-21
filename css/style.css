@@ -212,15 +212,60 @@ section.perfil-container .texto-perfil p {
 
 /* Section video */
 
-section.videos {
-  padding: 50px 0;
-}
-
 section.videos .box-video {
   float: left;
   width: calc(100% / 3);
   /*background-color: chocolate;*/
-  padding-top: calc(100% / 3);
+  padding-top: calc(33.3% * 0.6);
+  position: relative;
+  border: 5px solid white;
+}
+
+section.videos iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/***/
+
+/* Secao tratamentos */
+
+.tratamentos > h2 {
+  padding-top: 50px;
+  font-size: 22px;
+  color: #698293;
+  text-align: center;
+}
+
+section.tratamentos .container {
+  padding: 50px 0;
+}
+
+section.tratamentos .tratamento-container {
+  float: left;
+  width: calc(100% / 3);
+}
+
+section.tratamentos .tratamento-single {
+  width: 100%;
+  padding: 20px;
+  /*
+  background-image: url();
+  */
+}
+
+section.tratamentos .tratamento-single h2 {
+  font-size: 18px;
+  color: #737373;
+}
+
+section.tratamentos .tratamento-single p {
+  padding: 10px 0;
+  font-size: 13px;
+  color: #b4b4b4;
 }
 
 /***/
@@ -316,6 +361,27 @@ section.videos .box-video {
     padding: 0 30px;
     text-align: justify;
   }
+
+  section.videos {
+    text-align: center;
+  }
+
+  section.videos .box-video {
+    float: none;
+    width: 70%;
+    display: inline-block;
+    /*background-color: chocolate;*/
+    padding-top: calc(70% * 0.6);
+    border: 5px solid white;
+  }
+
+  section.videos iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /***/
@@ -328,6 +394,11 @@ section.videos .box-video {
     background-image: url("../imagens/img_perfil.png");
     background-size: 100% 100%;
     */
+  }
+  section.videos .box-video {
+    width: 100%;
+    /*background-color: chocolate;*/
+    padding-top: calc(100% * 0.6);
   }
 }
 
