@@ -166,7 +166,7 @@ section.perfil-container {
 }
 
 section.perfil-container .container {
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 section.perfil-container .perfil-wraper {
@@ -204,7 +204,7 @@ section.perfil-container .texto-perfil h2 {
 
 section.perfil-container .texto-perfil p {
   color: #4b4b4b;
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 8px;
 }
 
@@ -217,6 +217,7 @@ section.videos .box-video {
   width: calc(100% / 3);
   /*background-color: chocolate;*/
   padding-top: calc(33.3% * 0.6);
+  margin-top: 30px;
   position: relative;
   border: 5px solid white;
 }
